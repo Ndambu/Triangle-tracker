@@ -25,3 +25,8 @@ ul > li{
 .triangle {
   color: orange;
 }
+
+label {
+  padding: 30px;
+  margin: 12px;
+}
