@@ -7,17 +7,21 @@ h2 {
   color: red;
   text-align: center;
 }
+
 body{
   background-image: url("https://images.wallpaperscraft.com/image/galaxy_nebula_blurring_stars_65152_300x168.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 p {
   color: white;
 }
+
 ul > li{
   color: white;
 }
+
 .triangle {
   color: orange;
 }
