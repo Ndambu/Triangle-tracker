@@ -24,3 +24,4 @@ alert("The triangle is an scalene");
 
 }
 }
+triangleTracker();
