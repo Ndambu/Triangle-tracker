@@ -1,8 +1,7 @@
-let A = parseInt(prompt("Enter your number"));
-let B = parseInt(prompt("Enter your number"));
-let C = parseInt(prompt("Enter your number"));
-
-var triangleTracker =('sideA', 'sideB', 'sideC');
+function triangleTracker() {
+ var A = document.getElementById("a"). value;
+ var B = document.getElementById("b"). value;
+ var C = document.getElementById("c"). value;
 
 if (A + B <= C || B + C <= A || A + C <= B ) {
 
@@ -23,4 +22,5 @@ else {
 
 alert("The triangle is an scalene");
 
+}
 }
