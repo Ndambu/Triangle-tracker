@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://fiddle.jshell.net/oqy3h0ak/15/show/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title></title>
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script type="text/javascript" src="./dummy.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      h1 {
+  color: yellow;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+}
+body {
+  background-image: url("https://images.wallpaperscraft.com/image/galaxy_nebula_blurring_stars_65152_300x168.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  color: white;
+}
+ul > li {
+  color: white;
+}
+.triangle {
+  color: orange;
+}
+
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">
+
+
+    window.onload=function(){
+      
+let A = parseInt(prompt("Enter your number"));
+let B = parseInt(prompt("Enter your number"));
+let C = parseInt(prompt("Enter your number"));
+
+var triangleTracker =('sideA', 'sideB', 'sideC');
+
+if (A + B <= C || B + C <= A || A + C <= B ) {
+
+alert("This is not a triangle");
+
+}
+else if (A === B && B === C && A === C) {
+
+alert("The triangle is an equilateral");
+
+}
+else if (A === B || B === C || A === C) {
+
+alert("The triangle is an isosceles");
+
+}
+else {
+
+alert("The triangle is an scalene");
+
+}
+
+
+    }
+
+</script>
+
+</head>
+<body background-image="" scr="https://images.wallpaperscraft.com/image/galaxy_nebula_blurring_stars_65152_300x168.jpg">
+    
+
+  
+    <title>Triangle Tracker</title>
+    
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+  
+  
+    <h1>Triangle Tracker</h1>
+    <script src="./scripts.js"></script>
+    <h2>This program helps us to track our triangles.</h2>
+      <p>What is a triangle? <em>A triangle is basically a <strong>polygon</strong> with three edges and three vertices.
+      It is one of the basic shapes in Geometry</em>.</p>
+      <p>We are going to look at three types of triangles;</p>
+      <ul>
+      <li>An equilateral triangle</li>
+      <li>An isosceles triangle</li>
+      <li>A scalene triangle</li>
+      </ul>
+    <h3 class="triangle">Equilateral Triangle</h3> 
+      <p>This is a triangle that has three equal sides.</p>
+      <img scr="image//image.jpg" alt="image of an equilateral triangle.">
+      
+     
+
+
+
+
+
+
+    <input type="button" value="Click Here">
+
+  
+
+
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "oqy3h0ak"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body></html>
